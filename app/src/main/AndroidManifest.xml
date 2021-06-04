@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TRAVELGUIDE">
-        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".Mumbai"></activity>
+        <activity android:name=".Delhi" />
+        <activity android:name=".kolkata" />
+        <activity android:name=".mainActivity2" />
+        <activity android:name=".Chennai" />
+        <activity android:name=".HomeActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

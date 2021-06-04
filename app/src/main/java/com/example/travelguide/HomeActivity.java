@@ -32,9 +32,10 @@ public class HomeActivity extends AppCompatActivity {
         btnEnter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = getPackageManager().getLaunchIntentForPackage("com.example.tourguide");
-                startActivity(i);
+                Intent intent = new Intent(HomeActivity.this, mainActivity2.class);
+                startActivity(intent);
             }
+
         });
     }
 }

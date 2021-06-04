@@ -103,8 +103,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="321dp"
-        android:layout_height="51dp"
+        android:layout_width="329dp"
+        android:layout_height="52dp"
         android:background="@color/white"
         android:ems="10"
         android:hint="Name"
@@ -113,9 +113,9 @@
         android:textColorHint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.217" />
+        app:layout_constraintVertical_bias="0.216" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

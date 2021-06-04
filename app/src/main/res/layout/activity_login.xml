@@ -10,30 +10,30 @@
 
     <EditText
         android:id="@+id/editTextTextEmailAddress2"
-        android:layout_width="320dp"
-        android:layout_height="51dp"
+        android:layout_width="357dp"
+        android:layout_height="45dp"
         android:background="@color/white"
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        android:textColorHint="@color/black"
         android:padding="10dp"
+        android:textColorHint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.369" />
+        app:layout_constraintVertical_bias="0.405" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
-        android:layout_width="320dp"
-        android:layout_height="51dp"
+        android:layout_width="351dp"
+        android:layout_height="53dp"
         android:background="@color/white"
         android:ems="10"
         android:hint="Password"
-        android:padding="10dp"
         android:inputType="textPassword"
+        android:padding="10dp"
         android:textColorHint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
